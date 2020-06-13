@@ -1,7 +1,6 @@
-# A blank Mongoose OS app
+# A Mongoose OS Blink Led
 
 ## Overview
 
-This is an empty app, serves as a skeleton for building Mongoose OS
-apps from scratch.
+This is app is use to blink onboard led of LoLin ESP8266 board at interval of 1 sec.
 
