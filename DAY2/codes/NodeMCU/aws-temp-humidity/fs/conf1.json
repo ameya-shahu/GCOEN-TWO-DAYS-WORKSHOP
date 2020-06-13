@@ -1,0 +1,23 @@
+{
+    "device":{
+        "id":"esp-8266" //update device name
+    },
+
+    "wifi":{
+        "ap":{
+            "enable":false
+        },
+        "sta" : {
+            "enable":true,
+            "ssid" : "your wifi ssid here",
+            "pass" : "your wifi password here"
+        }
+    },
+    "mqtt" : {
+        "enable" :  true,
+        "server" : "end-point of server",
+        "ssl_cert" : "ssl-certificate.pem", //update certificate here
+        "ssl_key": "private.pem.key",      //update private key here
+        "ssl_ca_cert" : "AmazonRootCA1.pem"
+    }
+}
