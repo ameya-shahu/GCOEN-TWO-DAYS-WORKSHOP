@@ -1,7 +1,6 @@
-# A blank Mongoose OS app
+# A  Mongoose OS app
 
 ## Overview
 
-This is an empty app, serves as a skeleton for building Mongoose OS
-apps from scratch.
+This is an application, which read data from dht11 sensor publish it to AWS IoT core broker using MQTT client.
 
